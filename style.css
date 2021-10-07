@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+}
+.big_div {
+    display: grid;
+    justify-items: center;
+    place-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 50%;
+}
+.img_part{
+   
+}
+h1 {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin: 0;
+    padding: 1rem 4rem 1rem;
+}
+.plan_part{
+    border-radius: 8px;
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+}
+.icon_music{
+   max-width: 70px;
+   height: 50px;
+}
+h2{
+   font-size: 18px;
+}
+p.underlined{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+button{
+ max-width: 40%;
+ border-radius: 8px;
+ height: 40px;
+ background-color: hsl(245, 75%, 52%);
+ color: #fff;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+button :active {
+  background-color: hsl(225, 100%, 94%);  
+}
+h3{
+    color:hsl(224, 23%, 55%);
+    font-weight: 400;
+    cursor: pointer;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
