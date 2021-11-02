@@ -130,3 +130,10 @@ section.contents a.cancel-btn {
 section.contents a.cancel-btn:active {
     color: var(--neutral-dark-blue);
 }
+
+footer {
+    text-align: center;
+    margin-top: 8px;
+    opacity: .5;
+    font-size: 14px;
+}
